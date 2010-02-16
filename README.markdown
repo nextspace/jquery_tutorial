@@ -22,7 +22,7 @@ This March 16th. 2010. Boom!
 
 Right here at Nextspace:
 ------------------------
-There will be jQuery. Whole lots* of it. We will learn how cool javascript is, what you can do with
+There will be jQuery. Whole lots[^1] of it. We will learn how cool javascript is, what you can do with
 it, and how to apply it to enhance your existing web applications.
 
 
@@ -30,4 +30,4 @@ it, and how to apply it to enhance your existing web applications.
 
 Note: 
 -----
-*(~45min)
+[^1]: ~45 minutes
