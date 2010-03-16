@@ -30,13 +30,14 @@ Rather than a lecture, we will *interactively* learn how to use jQuery by using
 your browser's console (we'll be using Safari on Mac and Chrome if you are PC) to
 practice live coding on a basic HTML page.
 
-    If you are a Windows user please download Chrome (http://www.google.com/chrome/),
-    unless you already are a die-hard Firefox (w/ Firebug) user.
+    If you are a Windows user I recommend downloading Chrome (http://www.google.com/chrome/),
+    unless you already are a die-hard Firefox (w/ Firebug) fan.
 
 We will go beyond the console and show how you can build on the basics and write more
 complex features for your project. If you're familiar with jQuery already, bring your
 knowledge and help others--or heckle me, or help. Chris Burbridge will be there to
 help out too.
+
 
 Tutorial Topics
 ---------------
@@ -44,7 +45,7 @@ We will stop for a few questions and tangents but this will be the list of thing
 
 * overview, installation, how to get jQuery into your pages
 * how to select elements and perform actions upon them
-* how to respond to events (e.g., "user clicks X, Bob Barker pops out of a cake and neuters your dog.")
+* how to respond to events (e.g., "user clicks X, Bob Barker pops out of a cake and neuters your dog." Ew.)
 * how to get asynchronous with your web app (finally learn what "AJAX" means, and move beyond buzzword-compliance)
 * plus valuable tips and tricks on how to introspect your code and debug baffling problems
 

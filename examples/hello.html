@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NextSpace jQuery Tutorial</title>
+        <script type="text/javascript" src="../jquery-1.4.1.min.js"></script>
+        <style>
+            .clickit {
+                margin: 20px;
+                padding: 4px;
+                background: orange;
+                width: 100px;
+                text-align: center;
+                -moz-border-radius: 18px; -webkit-border-radius: 18px;
+            }
+            .clickmetoo {
+                margin: 20px;
+                padding: 4px;
+                background: #ff00ff;
+                width: 100px;
+                text-align: center;
+                -moz-border-radius: 18px; -webkit-border-radius: 18px;
+            }
+            .soopersecret { 
+                float: right;
+                position:absolute;
+                top:10px;left:300px;
+                height:337px; width:205px;
+                background: url(./shakes_transparent.png) no-repeat;
+            }
+            .glasses {
+                float:right;
+                position:absolute;
+                top:180px;left: 600px;
+                height:84px;width:255px;
+                background: url(./sunglasses.png) no-repeat;
+            }
+            .message {
+                margin: 40px; padding:10px;
+                text-align: center;
+                background: #f4e212;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="heading">
+            <h2>NextSpace jQuery Tutorial</h2>
+            <p>can you feel the awesome?</p>
+        </div>
+        <div class="spot">
+            <ul>
+                <li class="odd">ant
+                <li class="even">bee
+                <li class="odd">cat
+                <li class="even">dog
+                <li class="odd">earworm
+            </ul>
+        </div>
+        <div class="clickit">
+            <h3>yo!</h3>
+        </div>
+        <div class="clickmetoo">
+            <h3>me too</h3>
+        </div>
+
+        <div class="message">
+            <h1>just for you
+        </div>
+
+        <div class="soopersecret"></div>
+        <div class="glasses"></div>
+        <div class="empty"></div>
+
+        <script>
+            $(document).ready( function(){
+                // our stuff goes here
+
+                $('.message').hide()
+                // $('.soopersecret').hide()
+
+                // $('.clickit').click( function() {
+                //     $('.soopersecret').fadeIn(400)
+                // })
+
+
+                // $('.clickit').toggle(
+                //     function() { $('.soopersecret').fadeIn(600); }, 
+                //     function() { $('.soopersecret').fadeOut(600); }
+                // )
+
+                // $('li:first').hover( function() { alert($(this).text()) })
+
+                // $('.empty').append("<li>hi")
+
+                $('.clickmetoo').click(function(){ $('.message').slideDown(800) })
+            })
+        </script>
+    </body>
+</html>
