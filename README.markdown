@@ -53,3 +53,13 @@ We will stop for a few questions and tangents but this will be the list of thing
 What to Bring
 -------------
 * laptop
+
+Copyright & License
+-------------------
+
+Copyright (c) 2010 Dylan Clendenin except where attributed to other authors.
+
+All art in examples/ is the creation of Dylan Clendenin. You are free to use or
+post on the 'net or modify or sell but I ask that you attribute me as the
+creator of it. Don't sell me down the river, in other words.
+
